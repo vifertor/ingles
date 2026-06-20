@@ -1,0 +1,42 @@
+name: gamelish
+description: "Gamelish - Gamified English Learning Mobile App"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.4.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  fl_chart: ^0.68.0
+  percent_indicator: ^4.2.3
+  animated_text_kit: ^4.2.3
+  lottie: ^3.1.2
+  smooth_page_indicator: ^1.1.0
+  flutter_animate: ^4.5.0
+  shared_preferences: ^2.2.3
+  provider: ^6.1.2
+  just_audio: ^0.9.40
+  flutter_launcher_icons: ^0.14.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/audio/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/icon.png"
+  adaptive_icon_background: "#4A2C8A"   # Color morado oscuro
+  adaptive_icon_foreground: "assets/images/icon.png"
